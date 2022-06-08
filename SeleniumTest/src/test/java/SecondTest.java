@@ -69,6 +69,7 @@ public class SecondTest extends Config {
         driver.findElement(By.xpath("//button[@data-cy='wizard-next-step']")).click();
         Thread.sleep(3000);
         driver.findElement(By.xpath("//button[@data-cy='wizard-submit']")).click();
+        //git test
 
 
     }
