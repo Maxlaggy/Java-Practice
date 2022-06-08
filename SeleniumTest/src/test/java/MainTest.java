@@ -3,8 +3,6 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class MainTest extends Config {
-
-
     @Test
     public void loginCheck() {
         driver.navigate().to("https://easyoffice-frontend-develop.azurewebsites.net");

@@ -7,7 +7,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 public class Config {
-    ChromeDriver driver;
+    protected ChromeDriver driver;
 
     @BeforeTest
     public void init() {
